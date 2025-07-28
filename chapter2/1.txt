@@ -1,0 +1,10 @@
+/*1. Write a program to implement Type Casting Operator*/
+fn main() {
+    let float_num: f64 = 10.5;
+    let int_num: i32 = float_num as i32;
+    let back_to_float: f64 = int_num as f64;
+    
+    println!("Original float: {}", float_num);
+    println!("Cast to int: {}", int_num);
+    println!("Cast back to float: {}", back_to_float);
+}

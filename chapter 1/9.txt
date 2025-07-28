@@ -1,0 +1,23 @@
+/* 9. Write a program to create different types of constants print it in the output .*/
+fn main() {
+    // Integer constant
+    const INT_CONST: i32 = 100;
+    
+    // Floating-point constant
+    const FLOAT_CONST: f64 = 3.14159;
+    
+    // Boolean constant
+    const BOOL_CONST: bool = true;
+    
+    // Character constant
+    const CHAR_CONST: char = 'R';
+    
+    // String constant (string slice)
+    const STR_CONST: &str = "Rust Programming";
+
+    println!("Integer constant: {}", INT_CONST);
+    println!("Floating-point constant: {}", FLOAT_CONST);
+    println!("Boolean constant: {}", BOOL_CONST);
+    println!("Character constant: {}", CHAR_CONST);
+    println!("String constant: {}", STR_CONST);
+}
